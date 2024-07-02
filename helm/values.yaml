@@ -1,0 +1,10 @@
+replicas: 2
+image:
+  repository: celestiv/neoflex_demo_app
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30080
+containerPort: 8080
