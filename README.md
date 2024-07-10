@@ -52,3 +52,24 @@
 
 ## Задание 3. Деплоим через ArgoCD
 
+В ответ нужно прислать.
+1. Скриншот вывода команды kubectl get all -n argocd.
+
+![get all in argocd namespace](./part3.argocd/kubectl_get_all.png)
+
+2. Скриншот страницы из ArgoCD с синхронизированным репозиторием.
+
+![repo](./part3.argocd/repo_added.png)
+
+3. Скриншот страницы из ArgoCD с визуализацией вашего приложения.
+
+![application](./part3.argocd/argocd_interface_application.png)
+
+4. Скриншот страницы из ArgoCD, на котором видно, что появился новый под
+
+![new pod](./part3.argocd/scaled_pods.png)
+
+5. Скриншот вывода двух команд: масштабирования kubectl scale и списка
+подов kubectl get po.
+
+![scaling](./part3.argocd/kubectl_scale.png)
